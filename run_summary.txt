@@ -1,0 +1,22 @@
+﻿
+=== Connectivity Results ===
+
+Mock (127.0.0.1:3001) TcpTestSucceeded: True
+API  (127.0.0.1:3000) TcpTestSucceeded: True
+Test request succeeded. Response saved to C:\Users\Himanshu Negi\Desktop\proj\test_output.json
+Mock process id: 23392
+API process id:  2740
+
+=== Mock log tail (last 200 lines) ===
+
+Fallback Mock Oumi listening on http://127.0.0.1:3001
+
+=== Mock stderr tail ===
+
+
+=== API log tail (last 200 lines) ===
+
+Dev API server listening on http://localhost:3000
+
+=== API stderr tail ===
+
