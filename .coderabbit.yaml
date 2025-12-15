@@ -1,0 +1,19 @@
+reviews:
+  # 'chill' profile gives feedback without blocking the merge
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: false
+
+  # Custom instructions to demonstrate "Best Practices" & "Security"
+  instructions: |
+    Please act as a Senior Node.js Developer and review for:
+    1. Security: Flag any hardcoded API keys or secrets (e.g., OpenAI keys).
+    2. Performance: Identify inefficient synchronous operations that block the event loop.
+    3. Documentation: Ensure all exported functions have JSDoc comments.
+    4. Safety: specific to this project, ensure there are no 'eval()' calls or unsafe DOM manipulations.
+
+chat:
+  auto_reply: true
